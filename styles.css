@@ -1,0 +1,139 @@
+body{
+    margin: 3px;
+    margin-top: 14px;
+    width: 1437px;
+    height: 1012px;
+    background-color: hsl(0, 0%, 96%);
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment-1, .comment-2, .comment-3, .comment-4, .comment-5{
+    box-shadow: 40px 60px 40px hsl(0, 0%, 81%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.profile-img{
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+}
+.quotation{
+    position: relative;
+    right: -223px;
+    top: -31px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    height: 32px;
+    margin: 0;
+}
+.name, .graduate{
+    margin: 0 0 1.5px 15px;
+    color: hsl(214, 17%, 92%);
+}
+.comment-2 .name, .graduate, .comment-3 .name, .graduate, .comment-5 .name, .graduate{
+    margin: 0 0 1.5px 16px;
+}
+.comment-3 .name, .comment-5 .name{
+    color: hsl(217, 19%, 35%);
+}
+.comment-3 .graduate, .comment-5 .graduate{
+    color: hsl(224, 10%, 45%);
+}
+.name{
+    font-weight: 500;
+}
+.graduate{
+    font-size: 11px;
+    font-weight: 500;
+    color: hsl(0, 0%, 81%);
+}
+.comment-1 .profile-img, .comment-4 .profile-img{
+    border: solid 2px hsl(263, 100%, 72%);
+}
+.comment-2 .profile-img, .comment-3 .profile-img, .comment-5 .profile-img{
+    margin-top: 2px;
+}
+.paragraph{
+    z-index: 1;
+}
+.title{
+    margin: 15px 2px;
+    font-size: 19.9px;
+    font-weight: 600;
+    color: hsl(214, 17%, 92%);
+}
+.text{
+    color: hsl(0, 0%, 81%);
+    line-height: 18px;
+    font-weight: 500;
+}
+.comment-1 .text, .comment-2 .text, .comment-4 .text{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+.comment-3 .title, .comment-5 .title{
+    color: hsl(217, 19%, 35%);
+}
+.comment-3 .text, .comment-5 .text{
+    color: hsl(224, 10%, 45%);
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 830px 255px;
+    column-gap: 29px;
+}
+.grid-2{
+    display: grid;
+    grid-template-rows: 290px 263px;
+    row-gap: 22px;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: 540px 260px;
+    column-gap: 32px;
+    row-gap: 30px;
+    width: 800px;
+    height: 330px;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 255px 540px;
+    column-gap: 32px;
+}
+.comment-1{
+    background-color: hsl(263, 55%, 52%);
+    height: 226px;
+    padding: 31px 30px;
+}
+.comment-2{
+    background-color: hsl(217, 19%, 35%);
+    height: 226px;
+    width: 191px;
+    padding: 31px 32px;
+}
+.comment-3{
+    background-color: white;
+    height: 208px;
+    padding: 31px 32px;
+}
+.comment-4{
+    background-color: hsl(219, 29%, 14%);
+    height: 208px;
+    padding: 31px 30px;
+}
+.comment-5{
+    background-color: white;
+    height: 520px;
+    width: 191px;
+    padding: 31px 32px;
+}
